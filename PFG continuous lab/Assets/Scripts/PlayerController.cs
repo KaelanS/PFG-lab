@@ -86,4 +86,13 @@ public class PlayerController : MonoBehaviour
     {
         return playerDirection;
     }
+
+    private void OnTriggerEnter2D(Collider2D other) 
+    {
+        if (other.CompareTag("Fruit"))
+        {
+            other.GetComponent<FruitCollectable>().CallPrint();
+            Destroy(other.gameObject);
+        }
+    }
 }
