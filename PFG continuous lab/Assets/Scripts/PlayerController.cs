@@ -93,6 +93,7 @@ public class PlayerController : MonoBehaviour
         {
             other.GetComponent<FruitCollectable>().CallPrint();
             Destroy(other.gameObject);
+            FindObjectOfType<AudioManager>().Play("smb3_kick");
         }
     }
 }
