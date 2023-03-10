@@ -332,7 +332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fedb29eb90292334e89a697f02a1c364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fruitType: Apple
+  fruitType: 0
 --- !u!1 &275806500
 GameObject:
   m_ObjectHideFlags: 0
@@ -365,7 +365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fedb29eb90292334e89a697f02a1c364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fruitType: Watermelon
+  fruitType: 1
 --- !u!61 &275806502
 BoxCollider2D:
   m_ObjectHideFlags: 0

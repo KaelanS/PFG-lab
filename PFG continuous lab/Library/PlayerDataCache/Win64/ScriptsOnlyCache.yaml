@@ -86,7 +86,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4410}
     - Class: 114
-      Script: {instanceID: 23976}
+      Script: {instanceID: 5062}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -454,7 +454,7 @@ ScriptsOnlyBuild:
     className: StandaloneInputModule
   - hash:
       serializedVersion: 2
-      Hash: 2f9837012072e6e8e93e19e808d1e72c
+      Hash: c200d787ea091b548fb46a4e81014fac
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FruitCollectable
@@ -814,6 +814,12 @@ ScriptsOnlyBuild:
     className: GroupWeightManipulator
   - hash:
       serializedVersion: 2
+      Hash: 93046362279534243958131285f7938d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AudioManager
+  - hash:
+      serializedVersion: 2
       Hash: 28cfb4bd305dd11c6326cc3ee7c14138
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.Experimental.U2D.Animation
@@ -926,13 +932,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
-  - hash:
-      serializedVersion: 2
-      Hash: 93046362279534243958131285f7938d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AudioManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/_OTU/PFG Github/PFG-lab/Game .exe file/Lab 4/PFG continuous lab.exe
+  playerPath: C:/_OTU/PFG Github/PFG-lab/Game .exe file/Lab 6/PFG continuous lab.exe
