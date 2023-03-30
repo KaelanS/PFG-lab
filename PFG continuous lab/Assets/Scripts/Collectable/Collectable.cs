@@ -8,6 +8,11 @@ public class Collectable : MonoBehaviour
     public virtual void PrintCollectableType(string type) {
         print($"This collectable is a {type}");
     }
+
+    public void ListFruitsCollected()
+    {
+
+    }
 }
 
 /*
